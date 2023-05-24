@@ -5805,6 +5805,11 @@ header.stop .top-header {
 .section-padding {
   padding: 130px 0px;
 }
+
+.section-spacing {
+  padding: 32px 0px;
+}
+
 @media (max-width: 991px) {
   .section-padding {
     padding: 100px 0px;
