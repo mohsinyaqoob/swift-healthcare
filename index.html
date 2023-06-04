@@ -34,6 +34,9 @@
 </head>
 
 <body class="body-wrapper">
+
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0&appId=413421995769206&autoLogAppEvents=1" nonce="NXlK6aJS"></script>
     
   <!-- preloader -->
   <div id="preloader" class="preloader">
@@ -104,12 +107,12 @@
                     <div class="header-logo">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="assets/img/logo-2.png" alt="logo">
+                                <img src="assets/img/logo-2.png" height="60" alt="logo">
                             </a>
                         </div>
                         <div class="logo-2">
                             <a href="index.html">
-                                <img src="assets/img/logo-2.png" alt="logo">
+                                <img src="assets/img/logo-2.png" height="60" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -119,10 +122,10 @@
                                 <li><a href="index.html">Home</a>
                                 </li>
                                 <li><a href="about.html">About</a> </li>
+                                <li><a href="products.html">Products</a></li>
                                 <li><a href="services.html">Services</a></li>
                                 <li><a href="partners.html">Partners</a></li>
-<li><a href="csr.html" title="Corporate Social Responsibility">CSR</a></li>
-                                <li><a href="cases-grid.html">Culture</a></li>
+                                <li><a href="csr.html" title="Corporate Social Responsibility">CSR</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
@@ -146,10 +149,10 @@
                                             <li><a href="index.html">Home</a>
                                             </li>
                                             <li><a href="about.html">About</a> </li>
+                                            <li><a href="products.html">Products</a></li>
                                             <li><a href="services.html">Services</a></li>
                                             <li><a href="partners.html">Partners</a></li>
-<li><a href="csr.html" title="Corporate Social Responsibility">CSR</a></li>
-                                            <li><a href="cases-grid.html">Culture</a></li>
+                                            <li><a href="csr.html" title="Corporate Social Responsibility">CSR</a></li>
                                             <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </nav>
@@ -158,7 +161,7 @@
                                         <a href="mailto:modinatheme@gmail.com"><i class="fal fa-envelope-open-text"></i>
                                             admin@swifthealthcare.in</a>
                                         <a href="tel:123-456-7890"><i class="fal fa-phone"></i>+91 7006 189 139</a>
-                                        <a href="contact.html" class="d-btn theme-btn black">Live Chat</a>
+                                        <a href="contact.html" class="d-btn theme-btn btn-sm black">Live Chat</a>
                                     </div>
                                 </div>                            
                             </div>
@@ -170,46 +173,66 @@
         </div>
     </header>
 
-    <section class="hero-slide-wrapper hero-2">
-        <div class="hero-text">Techex</div>
-        <div class="hero-slider-2 owl-carousel">
-            <div class="single-slide bg-cover" style="background-image: url('assets/img/home2/slide1.jpg')">
-                <div class="container-fluid">
+    <section class="hero-slide-wrapper techex-landing-page">
+        <div class="hero-slider-active-2 owl-carousel owl-theme">
+            <div class="single-slide bg-cover" style="background-image: url('assets/img/company/1.JPG')">
+                <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-10 col-xl-8">
-                            <div class="hero-contents">
-                                <h1>Healthcare delivery<br> at its best.</h1>
-                                <p>We have over 25 years of expertise.</p>
-                                <a href="services.html" class="theme-btn">Service we provide <i class="fas fa-arrow-right"></i></a>
-                                <a href="about.html" class="theme-btn minimal-btn">learn more <i class="fas fa-arrow-right"></i></a>
+                        <div class="col-12">
+                            <div class="hero-contents text-center">
+                                <a class="theme-btn-sm" data-animation="fadeInUp" data-delay="0">Swift Healthcare</a>
+                                <h1 data-animation="fadeInUp" data-delay="0.4s">We have strategic alliances with leading companies</h1>
+                                <div data-animation="fadeInUp" data-delay="0.6s">
+                                    <p>These partnerships allow us to leverage their expertise, resources, and networks to deliver exceptional solutions to our clients</p>
+                                </div>
+                                
+                                <div class="btn__wrapper d-flex flex-wrap justify-content-center" data-animation="fadeInUp" data-delay="0.8s">
+                                    <a href="services.html" style="background-color: rgb(20, 47, 39);" class="theme-btn">Services We Provide <i class="icon-arrow-right-1"></i></a>
+                                    <a href="#" class="theme-btn">Live Chat<i class="icon-arrow-right-1"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="single-slide bg-cover" style="background-image: url('assets/img/home2/slide2.jpg')">
-                <div class="container-fluid">
+
+            <div class="single-slide bg-cover" style="background-image: url('assets/img/company/2.JPG')">
+                <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-10 col-xl-8">
-                            <div class="hero-contents">
-                                <h1>Regions leading<br> healthcare provider</h1>
-                                <p>Professional network of over 300 partners.</p>
-                                <a href="services.html" class="theme-btn">Service we provide <i class="fas fa-arrow-right"></i></a>
-                                <a href="about.html" class="theme-btn minimal-btn">learn more <i class="fas fa-arrow-right"></i></a>
+                        <div class="col-12">
+                            <div class="hero-contents text-center">
+                                <a class="theme-btn-sm" data-animation="fadeInUp" data-delay="0">Why Partner With Us?</a>
+                                <h1 data-animation="fadeInUp" data-delay="0.4s">We have strategic alliances with leading companies</h1>
+                                <div data-animation="fadeInUp" data-delay="0.6s">
+                                    <p>Expertise and Experience:  With years of industry experience, we bring a wealth of knowledge and expertise to the table. </p>
+                                </div>
+                                
+                                <div class="btn__wrapper d-flex flex-wrap justify-content-center" data-animation="fadeInUp" data-delay="0.8s">
+                                    <a href="services.html" style="background-color: rgb(20, 47, 39);" class="theme-btn">Services We Provide <i class="icon-arrow-right-1"></i></a>
+                                    <a href="#" class="theme-btn">Live Chat<i class="icon-arrow-right-1"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="single-slide bg-cover" style="background-image: url('assets/img/home2/slide3.jpg')">
-                <div class="container-fluid">
+            <div class="single-slide bg-cover" style="background-image: url('assets/img/company/3.JPG')">
+                <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-10 col-xl-8">
-                            <div class="hero-contents">
-                                <h1>Same day delivery<br> with no extra cost.</h1>
-                                <p>Super fast delivery with no hidden charges.</p>
-                                <a href="services.html" class="theme-btn">Service we provide <i class="fas fa-arrow-right"></i></a>
-                                <a href="about.html" class="theme-btn minimal-btn">learn more <i class="fas fa-arrow-right"></i></a>
+                        <div class="col-12">
+                            <div class="hero-contents text-center">
+                                <a class="theme-btn-sm" data-animation="fadeInUp" data-delay="0">Join Our Partner Network</a>
+                                <h1 data-animation="fadeInUp" data-delay="0.4s">Together, we can unlock new possibilities</h1>
+                                <div data-animation="fadeInUp" data-delay="0.6s">
+                                    <p>
+                                        We are always seeking new opportunities for collaboration and growth. If you are interested in partnering with us, please reach out to our partnership team.
+                                    </p>
+                                </div>
+                                
+                                <div class="btn__wrapper d-flex flex-wrap justify-content-center" data-animation="fadeInUp" data-delay="0.8s">
+                                    <a href="services.html" style="background-color: rgb(20, 47, 39);" class="theme-btn">Services We Provide <i class="icon-arrow-right-1"></i></a>
+                                    <a href="#" class="theme-btn">Live Chat<i class="icon-arrow-right-1"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -217,8 +240,6 @@
             </div>
         </div>
     </section>
-
-   
 
     <section class="about-us-wrapper dark section-padding">
         <div class="container">
@@ -232,7 +253,7 @@
                     <p class="pr-md-5">Our company has been a leading player in the Health and Hygiene Industry for the past 10 years, with a strong track record of providing high-quality products and services to our customers. Our expertise in this field has been built over years of experience and a deep understanding of the industry's complexities.</p>
                     
                     <div class="about-check-list d-flex">
-                        <div class="banner bg-cover" style="background-image: url('assets/img/home2/about4.jpg')"></div>
+                        <div class="banner bg-cover" style="background-image: url('assets/img/company/5.JPG')"></div>
 
                         <ul class="checked-list">
                             <li>Leading player</li>
@@ -247,10 +268,10 @@
                 <div class="col-xl-6 col-md-10 col-lg-6 pl-xl-5 col-12 mt-5 mt-xl-0">
                     <div class="about-thum">
                         <div class="item top-image text-right">
-                            <img src="assets/img/home2/about.jpg" height="280" alt="rrdevs">
+                            <img src="assets/img/company/4.JPG" height="280" alt="rrdevs">
                         </div>
                         <div class="item bottom-image text-end">
-                            <img src="assets/img/home2/about2.jpg" height="280" alt="rrdevs">
+                            <img src="assets/img/company/6.JPG" height="280" alt="rrdevs">
                         </div>
                     </div>
                 </div>
@@ -350,7 +371,7 @@
     </section> 
 
     <section class="faq-section section-padding">
-        <div class="faq-bg bg-cover d-none d-lg-block" style="background-image: url('assets/img/home2/why-us.jpg')"></div>
+        <div class="faq-bg bg-cover d-none d-lg-block" style="background-image: url('assets/img/company/4.JPG')"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 col-lg-6 offset-lg-6 offset-xl-7">
@@ -368,13 +389,13 @@
                                     <div class="card-header" id="faq1">
                                         <p class="mb-0 text-capitalize">
                                             <a class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" href="#faq-1">
-                                            How can I become your partner?
+                                                What is Swift Health & Hygiene Pvt. Ltd.?
                                             </a>
                                         </h5>
                                     </div>
                                     <div id="faq-1" class="collapse" data-parent="#accordion">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin
+                                            Swift Healthcare is a health and hygiene brand committed to providing high-quality products and solutions to promote wellness and cleanliness.
                                         </div>
                                     </div>
                                 </div> <!-- /card -->
@@ -382,13 +403,13 @@
                                     <div class="card-header" id="faq2">
                                         <p class="mb-0 text-capitalize">
                                             <a class="collapsed" role="button" data-toggle="collapse" aria-expanded="true" href="#faq-2">
-                                                Do you support online bookings?
+                                                What kind of products does Swift Health & Hygiene offer?
                                             </a>
                                         </p>
                                     </div>
                                     <div id="faq-2" class="collapse show" data-parent="#accordion">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin
+                                            Swift Health & Hygiene offers a wide range of health and hygiene products, including adult and infant diapers, sanitizers & disinfectants, personal care items, and more.
                                         </div>
                                     </div>
                                 </div> <!-- /card -->
@@ -396,13 +417,13 @@
                                     <div class="card-header" id="faq4">
                                         <p class="mb-0 text-capitalize">
                                             <a class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" href="#faq-3">
-                                                Do you offer financial/load services
+                                                Where can I buy Swift Health & Hygiene products?
                                             </a>
                                         </p>
                                     </div>
                                     <div id="faq-3" class="collapse" data-parent="#accordion">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin
+                                            You can purchase Swift Health & Hygiene products from our official website (www.swifthealthkart.com) or through authorized retailers and online marketplaces.
                                         </div>
                                     </div>
                                 </div> <!-- /card -->
@@ -410,13 +431,13 @@
                                     <div class="card-header" id="faq4">
                                         <p class="mb-0 text-capitalize">
                                             <a class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" href="#faq-4">
-                                                Do you deliver on holidays and Sundays
+                                                Do you offer bulk orders for businesses or institutions?
                                             </a>
                                         </p>
                                     </div>
                                     <div id="faq-4" class="collapse" data-parent="#accordion">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin 
+                                            Yes, Swift Health & Hygiene provides bulk order options for businesses, institutions, and organizations. Please contact our sales team or visit our website for more information on bulk purchasing.
                                         </div>
                                     </div>
                                 </div> <!-- /card -->
@@ -437,73 +458,70 @@
                         <h1>Meet Our Experienced Team Members</h1>
                     </div>
                 </div>
-                <!-- <div class="col-12 col-md-6 mt-3 text-start text-md-end">
-                    <a href="team.html" class="theme-btn off-white">View all Member <i class="fas fa-arrow-right"></i></a>
-                </div> -->
             </div>
 
             <div class="team-members-list row">
                 <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member active">
-                        <div class="member-img bg-cover bg-center" style="background-image: url('assets/img/home2/team1.png')">
+                    <div class="single-team-member">
+                        <div class="member-img bg-cover bg-center" style="background-image: url('assets/img/team/director.png')">
                         </div>
                         <div class="member-bio">
-                            <h4>Yasir Hayat</h4>
-                            <p>Business Manager</p>
+                            <h4>Bilal Ahmad</h4>
+                            <p>Director</p>
                         </div>
                         <div class="social-profile">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-behance"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center" style="background-image: url('assets/img/home2/team1.png')">
+                        <div class="member-img bg-cover bg-center" style="background-image: url('assets/img/team/managing-director.png')">
                         </div>
                         <div class="member-bio">
                             <h4>Yasir Hayat</h4>
-                            <p>Web Developer</p>
+                            <p>Managing Director</p>
                         </div>
                         <div class="social-profile">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-behance"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center" style="background-image: url('assets/img/home2/team1.png')">
+                        <div class="member-img bg-cover bg-center" style="background-image: url('assets/img/team/logistics.png')">
                         </div>
                         <div class="member-bio">
-                            <h4>Yasir Hayat</h4>
-                            <p>Business Manager</p>
+                            <h4>M. Yaseen Bhat</h4>
+                            <p>Logistics Warehouse</p>
                         </div>
                         <div class="social-profile">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-behance"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center" style="background-image: url('assets/img/home2/team1.png')">
+                        <div class="member-img bg-cover bg-center" style="background-image: url('assets/img/team/digital-marketer.png')">
                         </div>
                         <div class="member-bio">
-                            <h4>Yasir Hayat</h4>
-                            <p>Product Manager</p>
+                            <h4>Asim Showkat</h4>
+                            <p>Digital Marketer</p>
                         </div>
                         <div class="social-profile">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-behance"></i></a>
+                            <a href="http://swifthealthkart.com" target="_blank"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -524,7 +542,7 @@
                                 Swift Health & Hygiene's products are essential for our daily lives. Their hand sanitizers and disinfectants are of the highest quality and keep us safe.
                             </h2>
                             <div class="client-info">
-                                <div class="client-img bg-cover" style="background-image: url('assets/img/home2/team1.png')"></div>
+                                <div class="client-img bg-cover" style="background-image: url('assets/img/home2/s1.jpg')"></div>
                                 <div class="client-bio">
                                     <h3>Salman Ahmed</h3>
                                     <p>Star Pharmateuticals</p>
@@ -540,7 +558,7 @@
                                 We rely on Swift Health & Hygiene's products to keep our workplace clean and hygienic. Their range of cleaning supplies are efficient and effective.
                             </h2>
                             <div class="client-info">
-                                <div class="client-img bg-cover" style="background-image: url('assets/img/home2/team1.png')"></div>
+                                <div class="client-img bg-cover" style="background-image: url('assets/img/home2/s2.jpg')"></div>
                                 <div class="client-bio">
                                     <h3>Mohammad Nasir</h3>
                                     <p>D3 Supermarket</p>
@@ -556,7 +574,7 @@
                                 I trust Swift Health & Hygiene to provide my family with top-notch products that promote good health and hygiene. Their range of products is simply unbeatable.
                             </h2>
                             <div class="client-info">
-                                <div class="client-img bg-cover" style="background-image: url('assets/img/home2/team1.png')"></div>
+                                <div class="client-img bg-cover" style="background-image: url('assets/img/home2/s3.jpg')"></div>
                                 <div class="client-bio">
                                     <h3>Aadil Shah</h3>
                                     <p>AS Enterprises</p>
@@ -582,7 +600,7 @@
                         </div>
                         <div class="content">
                             <span>Phone Number</span>
-                            <h5><a href="tel:+012 (345) 789 66">+012 (345) 789 66</a></h5>
+                            <h5><a href="tel:+012 (345) 789 66">+91 7006 189 139</a></h5>
                         </div>
                     </div>
                     <div class="call-consultation mt-30 mb-40">
@@ -590,8 +608,8 @@
                             <i class="fal fa-mailbox"></i>
                         </div>
                         <div class="content">
-                            <span>Phone Number</span>
-                            <h5><a href="tel:+012 (345) 789 66">+91 7006 189 139</a></h5>
+                            <span>Email Address</span>
+                            <h5><a href="mailto:admin@swifthealthcare.in">admin@swifthealthcare.in</a></h5>
                         </div>
                     </div>
                     <div class="call-consultation mt-30 mb-40">
@@ -628,6 +646,9 @@
             <div class="brand-carousel-active pt-60 pb-60 d-flex justify-content-between owl-carousel">
                 <div class="single-client">
                     <img src="assets/img/home2/brands/image 14.png" alt="">
+                </div>
+                <div class="single-client">
+                    <img src="assets/img/home2/brands/image 25.png" alt="">
                 </div>
                 <div class="single-client">
                     <img src="assets/img/home2/brands/image 15.png" alt="">
@@ -687,15 +708,17 @@
 
                             <div class="footer-logo-2">
                                 <a href="index.html">
-                                    <img src="assets/img/logo-2.png" alt="logo">
+                                    <img src="assets/img/logo-2.png" height="60" alt="logo">
                                 </a>
                             </div>
-                            <p class="mt-4">Sed ut perspiciatis unde omnis natus voluptatem accusa ntiumy doloremque laudantium.omnis natus voluptatem accusa ntiumy doloremque laudantium</p>
+                            <p class="mt-4">
+                                We are proud to work alongside a diverse range of partners. Together, we strive to achieve excellence and make a positive impact in our industry.
+                            </p>
                             <div class="social-link mt-30">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="http://facebook.com/swifthealthcare"><i class="fab fa-facebook-f"></i></a>
+                                <a href="http://twitter.com/swifthealthcare"><i class="fab fa-twitter"></i></a>
+                                <a href="http://instagram.com/swifthealthcare"><i class="fab fa-instagram"></i></a>
+                                <a href="http://youtube.com/swifthealthcare"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div> <!-- /.col-lg-3 - single-footer-wid -->
@@ -706,47 +729,34 @@
                             </div>
                             <ul>
                                 <li><a href="about.html">About Us</a></li>
-                                <li><a href="about.html">Company History</a></li>
-                                <li><a href="contact.html">Need a Career</a></li>
-                                <li><a href="project-details.html">Working Process</a></li>
-                                <li><a href="news.html">Blog Post</a></li>
+                                <li><a href="products.html">Top Products</a></li>
+                                <li><a href="services.html">Ourt Services</a></li>
+                                <li><a href="partners.html">Partners</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div> <!-- /.col-lg-3 - single-footer-wid -->
                     <div class="col-md-6 col-xl-2 col-12">                        
                         <div class="single-footer-wid">
                             <div class="wid-title">
-                                <h4>Company</h4>
+                                <h4>External Links</h4>
                             </div>
                             <ul>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="about.html">Company History</a></li>
-                                <li><a href="contact.html">Need a Career</a></li>
-                                <li><a href="project-details.html">Working Process</a></li>
-                                <li><a href="news.html">Blog Post</a></li>
+                                <li><a href="http://google.com">JK Health Serv.</a></li>
+                                <li><a href="http://google.com">FMCG India</a></li>
+                                <li><a href="http://google.com">Health & Hygiene</a></li>
+                                <li><a href="http://google.com">Helping Hands</a></li>
+                                <li><a href="http://google.com">Google Business</a></li>
                             </ul>
                         </div>
                     </div> <!-- /.col-lg-3 - single-footer-wid -->
                     <div class="col-md-6 col-xl-3 col-12">
                         <div class="single-footer-wid recent_post_widget">
                             <div class="wid-title">
-                                <h4>News News</h4>
+                                <h4>Social Brief</h4>
                             </div>
                             <div class="recent-post-list">
-                                <div class="single-recent-post">
-                                    <div class="thumb bg-cover" style="background-image: url('assets/img/blog/b1.jpg');"></div>
-                                    <div class="post-data">
-                                        <span><i class="fal fa-calendar-alt"></i>24th Nov 2020</span>
-                                        <h5><a href="news-details.html">User’s Perspes Using Story Structure</a></h5>
-                                    </div>
-                                </div>
-                                <div class="single-recent-post">
-                                    <div class="thumb bg-cover" style="background-image: url('assets/img/blog/b2.jpg');"></div>
-                                    <div class="post-data">
-                                        <span><i class="fal fa-calendar-alt"></i>15th July 2021</span>
-                                        <h5><a href="news-details.html">Optimiz For Assistive Technology Users</a></h5>
-                                    </div>
-                                </div>
+                                <div class="fb-page" data-href="https://www.facebook.com/swifthealthcare007" data-tabs="timeline" data-width="" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/swifthealthcare007" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/swifthealthcare007">SWIFT Healthcare &amp; Hygiene</a></blockquote></div>
                             </div>
                         </div>
                     </div> <!-- /.col-lg-3 - single-footer-wid -->
@@ -756,8 +766,8 @@
 
         <div class="footer-bottom">
             <div class="container text-center">
-                <div class="footer-bottom-content">
-                    © 2021 <a href="index.html">Techex</a>. All Rights Reserved
+                <div class="footer-bottom-content" id="footer-copyright">
+                    <!-- © 2021 <a href="index.html">Swift</a>. All Rights Reserved -->
                 </div>
             </div>
         </div>
@@ -783,6 +793,11 @@
     <script src="assets/js/ajax-mail.js"></script>
     <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/active.js"></script>
+    <script>
+        const year = new Date().getFullYear()
+        const footerCopyright = `© ${year} - Swift Healthcare. All Rights Reserved`
+        document.getElementById("footer-copyright").innerText = footerCopyright;
+    </script>
 </body>
 
 </html>

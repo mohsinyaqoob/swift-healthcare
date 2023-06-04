@@ -2603,7 +2603,7 @@ a img.aligncenter {
   color: #fff !important;
   text-transform: uppercase;
   border-radius: 500px;
-  background: rgba(8, 106, 215, 0.75);
+  background: rgb(20, 47, 39)
 }
 .theme-btn-sm:before {
   left: 0;
@@ -13799,7 +13799,7 @@ header.stop .top-header {
   content: "";
   height: 100%;
   position: absolute;
-  background: rgba(21, 7, 137, 0.75);
+  background: rgb(7 137 99 / 75%)
 }
 .hero-slide-wrapper.techex-landing-page .single-slide .hero-contents {
   margin: auto;
@@ -15337,4 +15337,9 @@ header.stop .top-header {
 
 .single-service-item p {
   color: #fff;
+}
+
+.btn-buy{
+  color: #fff !important;
+  text-align: center;
 }
