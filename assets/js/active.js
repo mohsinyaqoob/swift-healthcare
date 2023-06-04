@@ -1,6 +1,6 @@
 /*
 Template: Swift Health & Hygiene - Private Limited.
-Author: RRDevs
+Author: Mohsin Yaqoob
 */
 
 (function ($) {
