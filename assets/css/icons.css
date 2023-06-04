@@ -8308,19 +8308,19 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 
 @font-face {
-  font-family: 'techex';
-  src: url('../fonts/techex.eot');
-  src: url('../fonts/techex.eot') format('embedded-opentype'),
-       url('../fonts/techex.woff2') format('woff2'),
-       url('../fonts/techex.woff') format('woff'),
-       url('../fonts/techex.ttf') format('truetype'),
-       url('../fonts/techex.svg') format('svg');
+  font-family: 'swift';
+  src: url('../fonts/swift.eot');
+  src: url('../fonts/swift.eot') format('embedded-opentype'),
+       url('../fonts/swift.woff2') format('woff2'),
+       url('../fonts/swift.woff') format('woff'),
+       url('../fonts/swift.ttf') format('truetype'),
+       url('../fonts/swift.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "techex";
+  font-family: "swift";
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
