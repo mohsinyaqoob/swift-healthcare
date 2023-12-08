@@ -139,3 +139,14 @@ ul.timeline > li:before {
 ul.timeline {
   padding-left: 10px;
 }
+
+@media screen and (min-width: 768px) {
+  .swift-jk-landing-page {
+    height: 600px !important;
+    overflow: hidden;
+  }
+
+  .hero-slide-wrapper.swift-jk-landing-page .single-slide {
+    padding: 96px;
+  }
+}
